@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    </style>
+    <h3>marks sheet of Ali a 9th class student</h3>
+
+        <label for="mathmarks">MAth Obtained Marks
+            <input type="text" name="mathmarks" id="mathmarks">
+        </label>
+        <label for="physicsmarks">Physcis Obtained Marks
+            <input type="text" name="physicsmarks" id="physicsmarks">
+        </label>
+        <label for="chemmarks">Chemistry Obtained Marks
+            <input type="text" name="chemmarks" id="chemmarks">
+        </label>
+        <label for="biomarks">Biology Obtained Marks
+            <input type="text" name="biomarks" id="biomarks">
+        </label>
+        <label for="englishmarks">English Obtained Marks
+            <input type="text" name="englishmarks" id="englishmarks">
+        </label>
+        <label for="urdumarks">Urdu Obtained Marks
+            <input type="text" name="urdumarks" id="urdumarks">
+        </label>
+        <label for="islmarks">Islamiyat Obtained Marks
+            <input type="text" name="islmarks" id="islmarks">
+        </label>
+        <label for="pstmarks">PST Obtained Marks
+            <input type="text" name="pstmarks" id="pstmarks">
+        </label>
+        
+        <button onclick="showMarks()" >Submit</button>
+    
+    <table style="text-align: center;">
+        <tr>
+            <td >Subjects</td>
+            <td>Obtained marks</td>
+            <td>total marks</td>
+            <td>status</td>
+            <td>Grade</td>
+            
+        </tr>
+        <tr>
+            <td >Maths</td>
+            <td id="moM"></td>
+            <td>100</td>
+            <td id="tex"></td>
+            <td id="mgrade"></td>
+            
+        </tr>
+
+        <tr>
+            <td>Physics</td>
+            <td id="poM"></td>
+            <td>100</td>
+            <td id="texp"></td>
+            <td id="pgrade"></td>
+           
+        </tr>
+        <tr>
+            <td>Chemistry</td>
+            <td id="coM"></td>
+            <td>100</td>
+            <td id="texc"></td>
+            <td id="cgrade"></td>
+            
+        </tr>
+        <tr>
+            <td>Biology</td>
+            <td id="boM"></td>
+            <td>100</td>
+            <td id="texb"></td>
+            <td id="bgrade"></td>        
+            
+        </tr>
+
+        <tr>
+            <td>English</td>
+            <td id="eoM"></td>
+            <td>100</td>
+            <td id="texe"></td>
+            <td id="egrade"></td>        
+            
+        </tr>
+        <tr>
+            <td>Urdu</td>
+            <td id="uoM"></td>
+            <td>100</td>
+            <td id="texu"></td>
+            <td id="ugrade"></td>        
+            
+        </tr>
+        <tr>
+            <td>Islamiyat</td>
+            <td id="ioM"></td>
+            <td>100</td>
+            <td id="texi"></td>
+            <td id="igrade"></td>        
+            
+        </tr>
+        <tr>
+            <td>PST</td>
+            <td id="soM"></td>
+            <td>100</td>
+            <td id="texs"></td>
+            <td id="sgrade"></td>        
+            
+        </tr>
+          
+
+    </table>
+    <div id="showtable">
+
+    </div>
+    <p id="backgroundShow" style="font-size: 25px; color: black; background-color: aqua;"> Background Color is: <span id="colorName"></span></p>
+    <button id="btn">Change Me</button>
+     
+
+    <script src="script.js"></script>
+</body>
+</html>
